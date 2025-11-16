@@ -1,0 +1,21 @@
+{
+    "customerName": "John Smith",
+    "ipAddress": "10.4.3.2",
+    "location": {
+        "city": "Somewhere",
+        "state": "MA"
+    },
+    "paymentDetails": {
+        "cardLast4": "4567",
+        "nameOnCard": "John Smith",
+        "cardAmount": 46.56
+    },
+    "transactionDetails": {
+        "merchantName": "Some Store",
+        "merchantLocation": {
+            "city": "Somewhere",
+            "state": "MA"
+        },
+        "purchasedItemCount": 2
+    }
+}

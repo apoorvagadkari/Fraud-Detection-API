@@ -1,0 +1,21 @@
+{
+    "customerName": "John Smith",
+    "ipAddress": "192.168.1.100",
+    "location": {
+        "city": "Boston",
+        "state": "MA"
+    },
+    "paymentDetails": {
+        "cardLast4": "1111",
+        "nameOnCard": "Jane Doe",
+        "cardAmount": 1500.00
+    },
+    "transactionDetails": {
+        "merchantName": "Electronics Store",
+        "merchantLocation": {
+            "city": "Los Angeles",
+            "state": "CA"
+        },
+        "purchasedItemCount": 15
+    }
+}
