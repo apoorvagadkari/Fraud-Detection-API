@@ -120,7 +120,7 @@ The server is now running on http://localhost:8080
 You can check by clicking on the URl above but you can skip as well, will still work fine
 
 
-Now open a different terminal and again go to the same url (in fraud-detection-api)
+Now open a different terminal and again go to the same file (in fraud-detection-api)
 
 # Testing the API
 
