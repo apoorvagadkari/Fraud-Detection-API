@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * Evaluates card-based fraud signals.
- * Checks for name mismatches and suspicious card patterns.
+ * Checks if the customer's name matches the name on the card and detects suspicious card patterns (like "1111" or "9999"), flagging potential fraud if there's a mismatch or pattern.
  */
 @Component
 @Slf4j

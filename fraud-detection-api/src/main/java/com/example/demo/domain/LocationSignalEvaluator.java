@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * Evaluates location-based fraud signals.
- * Checks if customer location matches merchant location and purchase history.
+ * Checks if the customer's location matches the merchant's location and if the customer has ever purchased from this location before, flagging as fraud if there's a mismatch or it's a new location.
  */
 @Component
 @Slf4j

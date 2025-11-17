@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * Evaluates transaction-based fraud signals.
- * Checks for unusual transaction amounts, item counts, and patterns.
+ * Checks if the transaction amount is unusually high, item count is suspicious, or if the customer is making too many transactions too quickly (velocity check), flagging potential fraud if any threshold is exceeded.
  */
 @Component
 @Slf4j

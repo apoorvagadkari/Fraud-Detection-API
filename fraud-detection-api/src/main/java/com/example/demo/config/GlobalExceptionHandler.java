@@ -18,6 +18,7 @@ import java.util.List;
 /**
  * Global exception handler for the fraud detection API.
  * Provides consistent error responses across all endpoints.
+ * Catches all errors and returns clean,structured error responses.
  */
 @RestControllerAdvice
 public class GlobalExceptionHandler {

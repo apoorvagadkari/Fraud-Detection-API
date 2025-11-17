@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 
 /**
  * Represents a historical transaction record.
- * Used for detecting fraud patterns based on customer history.
+ * This is the internal data structure used to store a simplified version of each transaction in the history (ConcurrentHashMap), enabling fraud detection based on past customer behavior like location patterns and transaction velocity.
  */
 @Data
 @NoArgsConstructor

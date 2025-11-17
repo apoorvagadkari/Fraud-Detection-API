@@ -12,7 +12,8 @@ import org.springframework.web.bind.annotation.*;
 /**
  * REST Controller for the fraud detection API.
  * Handles incoming transaction scoring requests.
- */
+ * API's entry point that recieves transaction requests via HTTP POST,validates them
+passes them to the fraud detection service and returns the fraud analysis results */
 @RestController
 @RequestMapping("/api")
 @RequiredArgsConstructor

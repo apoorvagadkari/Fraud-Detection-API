@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * Main request DTO for the fraud scoring API.
- * Represents the complete transaction information sent by the merchant.
+ * This is the complete transaction data structure that merchants send to the API, containing customer name, IP address, location, payment details, and transaction details, all validated to ensure required fields are present.
  */
 @Data
 @NoArgsConstructor

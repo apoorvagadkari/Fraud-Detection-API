@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * Represents a single fraud signal in the response.
- * Each signal covers a different aspect of fraud detection.
+ * This represents one fraud check result (like location, IP, transaction, or card), containing the check type, whether it detected fraud (true/false), and detailed reasons why.
  */
 @Data
 @NoArgsConstructor

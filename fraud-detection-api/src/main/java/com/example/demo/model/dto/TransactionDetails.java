@@ -9,7 +9,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * Details about the merchant and transaction.
+ * This holds information about the merchant and purchase (merchant name, merchant location, and number of items bought) with validation to ensure all required fields are provided.
  */
 @Data
 @NoArgsConstructor

@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * Represents a geographic location with city and state.
- * Used in both customer location and merchant location.
+ * This is a simple data structure that holds a city and state (like "Boston, MA"), used for both customer location and merchant location in the transaction request.
  */
 @Data
 @NoArgsConstructor

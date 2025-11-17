@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * Payment details for the transaction.
- * Contains card information and transaction amount.
+ * This holds the payment information for a transaction (last 4 digits of card, cardholder name, and transaction amount) with validation rules ensuring all fields are provided and amount is positive.
  */
 @Data
 @NoArgsConstructor

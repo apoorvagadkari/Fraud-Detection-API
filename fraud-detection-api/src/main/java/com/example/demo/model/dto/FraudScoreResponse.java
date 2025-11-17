@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * Response DTO containing all fraud signals for a transaction.
- * This is what the API returns to the merchant.
+ * This is the structure of the JSON response sent back to the merchant, containing a list of all fraud check results (location, IP, transaction, card details).
  */
 @Data
 @NoArgsConstructor

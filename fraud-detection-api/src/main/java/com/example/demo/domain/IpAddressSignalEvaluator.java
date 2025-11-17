@@ -13,7 +13,7 @@ import java.util.Set;
 
 /**
  * Evaluates IP address-based fraud signals.
- * Checks if IP is from a known fraudulent source or suspicious network.
+ * Checks if the transaction's IP address is on a blacklist of known fraudulent IPs or comes from a private network (VPN/proxy), flagging it as suspicious if either is true.
  */
 @Component
 @Slf4j
