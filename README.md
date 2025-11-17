@@ -276,4 +276,4 @@ Abstractions - Single structure
 Clear boundaries between API and Domain Layer, Controller and Service Layer, Doamin and Storage, Service and Domain
 Maintainabilty - Comments, Self documented code, easy to modify methods, easy to fix bugs and don't have ripple effect across classes, easy to mock for testing
 Less changes to the codebase even if we want to modify a feature
-
+Usage of in-memory storage using a ConcurrentHashMap to track past records of users -- check a partcular's location transaction history and how many transactions have been made by a particular user in the last 10 minutes
