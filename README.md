@@ -78,7 +78,10 @@ Step-by-Step Setup
 # Clone the project 
 git clone https://github.com/apoorvagadkari/Fraud-Detection-API
 
-# Navigate into the project folder
+# Navigate
+cd Fraud-Detection-API
+
+# Navigate into the project folder further
 cd fraud-detection-api
 
 2. Build the Project
@@ -101,7 +104,6 @@ This will:
 # On Windows:
 gradlew.bat test
 
-Expected output: BUILD SUCCESSFUL with 32 tests passed
 
 4. Start the Server
 # On Mac/Linux:
@@ -115,10 +117,14 @@ Tomcat started on port 8080 (http) with context path '/'
 Started DemoApplication in X.XXX seconds
 
 The server is now running on http://localhost:8080
+You can check by clicking on the URl above but you can skip as well, will still work fine
 
-Testing the API
 
-Option 1: Using cURL (Mac/Linux/Windows Git Bash) - Use another terminal and locate to the same path that is fraud-dtection-api
+Now open a different terminal and again go to the same url (in fraud-detection-api)
+
+# Testing the API
+
+Using cURL (Mac/Linux/Windows Git Bash) 
 
 curl -X POST http://localhost:8080/api/score-transaction \
   -H "Content-Type: application/json" \
@@ -148,7 +154,11 @@ Problem: "java: command not found"
 - Solution: Install Java 23 from https://www.oracle.com/java/technologies/downloads/
 
 Problem: "Port 8080 already in use"
-- Solution: Stop other applications using port 8080
+- Solution:For Mac- lsof -i :8080
+            kill -9 <PID>
+
+            For Windows - netstat -ano | findstr :8080
+                          taskkill /PID <PID> /F
 
 Problem: "Permission denied: ./gradlew"
 - Solution (Mac/Linux): chmod +x gradlew
@@ -156,19 +166,6 @@ Problem: "Permission denied: ./gradlew"
 Problem: Tests failing
 - Solution: ./gradlew clean build
 
-Quick Start Summary 
-# 1. Clone
-git clone <repo-url>
-cd fraud-detection-api
-
-# 2. Build
-./gradlew build
-
-# 3. Run
-./gradlew bootRun
-
-# 4. Test API is working
-curl -X POST http://localhost:8080/api/score-transaction -H "Content-Type: application/json" -d '...'
 
 
 POST ENDPOINT
