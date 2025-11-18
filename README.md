@@ -42,23 +42,23 @@ No circular dependencies - clean separation of concerns
 
 # GETTING STARTED 
 
-# Prerequisites
+## Pre-requisites
 - Java 23 (or Java 17+)
 - Gradle 8.14.3 (included via wrapper)
 
-# Build the project
+## Build the project
 ./gradlew build
 
-# Run tests
+## Run tests
 ./gradlew test
 
-# Start the server
+## Start the server
 ./gradlew bootRun
 
-# Server runs on http://localhost:8080
+## Server runs on http://localhost:8080
 
 
-## RUNNING ON ANOTHER COMPUTER - HOW DO I RUN THIS?
+# RUNNING ON ANOTHER COMPUTER - HOW DO I RUN THIS?
 
 Prerequisites
 Ensure you have the following installed:
@@ -75,20 +75,20 @@ Note: You do NOT need to install Gradle - the project includes a Gradle wrapper 
 Step-by-Step Setup
 
 1. Clone the Repository
-# Clone the project 
+## Clone the project 
 git clone https://github.com/apoorvagadkari/Fraud-Detection-API
 
-# Navigate
+## Navigate
 cd Fraud-Detection-API
 
-# Navigate into the project folder further
+## Navigate into the project folder further
 cd fraud-detection-api
 
 2. Build the Project
-# On Mac/Linux:
+## On Mac/Linux:
 ./gradlew build
 
-# On Windows:
+## On Windows:
 gradlew.bat build
 
 This will:
@@ -98,18 +98,18 @@ This will:
 - Create executable JAR file
 
 3. Run Tests (Optional)
-# On Mac/Linux:
+## On Mac/Linux:
 ./gradlew test
 
-# On Windows:
+## On Windows:
 gradlew.bat test
 
 
 4. Start the Server
-# On Mac/Linux:
+## On Mac/Linux:
 ./gradlew bootRun
 
-# On Windows:
+## On Windows:
 gradlew.bat bootRun
 
 Wait for:
@@ -122,7 +122,7 @@ You can check by clicking on the URl above but you can skip as well, will still 
 
 Now open a different terminal and again go to the same file (in fraud-detection-api)
 
-# Testing the API
+## Testing the API
 
 Using cURL (Mac/Linux/Windows Git Bash) 
 
@@ -237,17 +237,17 @@ Card number has repeating digits pattern (e.g., 1111, 2222)
 
 
 
-## TESTING
-# Run all tests (32 tests across 6 test classes)
+# TESTING
+## Run all tests (32 tests across 6 test classes)
 ./gradlew test
 
-# Test categories:
-# - Unit tests: LocationSignalEvaluatorTest (4)
-# - Unit tests: IpAddressSignalEvaluatorTest (5)
-# - Unit tests: TransactionSignalEvaluatorTest (4)
-# - Unit tests: CardDetailsSignalEvaluatorTest (7)
-# - Service tests: FraudDetectionServiceTest (4)
-# - Integration tests: FraudDetectionControllerIntegrationTest (8)
+## Test categories:
+## - Unit tests: LocationSignalEvaluatorTest (4)
+## - Unit tests: IpAddressSignalEvaluatorTest (5)
+## - Unit tests: TransactionSignalEvaluatorTest (4)
+## - Unit tests: CardDetailsSignalEvaluatorTest (7)
+## - Service tests: FraudDetectionServiceTest (4)
+## - Integration tests: FraudDetectionControllerIntegrationTest (8)
 
 
 
@@ -265,7 +265,7 @@ Use machine learning for anomaly detection
 Use a proper database
 Create a dashboard
 
-## QUICK SUMMARY OF THINGS I HAVE ADDED APART FROM THE ONE DISCUSSED ABOVE
+# QUICK SUMMARY OF THINGS I HAVE ADDED APART FROM THE ONE DISCUSSED ABOVE
 Code Clarity - Proper class names, comments, file structure
 Tests - Unit, Service and Integration Testing
 Patterns - SOLID,DRY
