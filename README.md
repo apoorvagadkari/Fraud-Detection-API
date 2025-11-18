@@ -84,11 +84,11 @@ cd Fraud-Detection-API
 ## Navigate into the project folder further
 cd fraud-detection-api
 
-2. Build the Project
-## On Mac/Linux:
+## Build the Project
+* On Mac/Linux:
 ./gradlew build
 
-## On Windows:
+* On Windows:
 gradlew.bat build
 
 This will:
@@ -97,19 +97,19 @@ This will:
 - Run all tests
 - Create executable JAR file
 
-3. Run Tests (Optional)
-## On Mac/Linux:
+## Run Tests (Optional)
+* On Mac/Linux:
 ./gradlew test
 
-## On Windows:
+* On Windows:
 gradlew.bat test
 
 
-4. Start the Server
-## On Mac/Linux:
+## Start the Server
+* On Mac/Linux:
 ./gradlew bootRun
 
-## On Windows:
+* On Windows:
 gradlew.bat bootRun
 
 Wait for:
