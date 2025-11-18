@@ -144,11 +144,14 @@ curl -X POST http://localhost:8080/api/score-transaction \
     }
   }'
 
+And then press enter and you should be able to see the output
 
-Stopping the Server
+## Stopping the Server
 Press Ctrl + C in the terminal where the server is running
 
-Troubleshooting
+This concludes the output we wanted but you can also change the input to get different results.
+
+## Troubleshooting
 
 Problem: "java: command not found"
 - Solution: Install Java 23 from https://www.oracle.com/java/technologies/downloads/
