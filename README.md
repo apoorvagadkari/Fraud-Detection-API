@@ -60,7 +60,7 @@ No circular dependencies - clean separation of concerns
 
 # RUNNING ON ANOTHER COMPUTER - HOW DO I RUN THIS?
 
-Prerequisites
+Prerequisites:
 Ensure you have the following installed:
 1. Java 23 (or Java 17+)
    - Check: java -version
@@ -73,6 +73,7 @@ Ensure you have the following installed:
 Note: You do NOT need to install Gradle - the project includes a Gradle wrapper that handles it automatically!
 
 Step-by-Step Setup
+Once you have the above pre-requisites, you can open a terminal and do the following
 
 1. Clone the Repository
 ## Clone the project 
